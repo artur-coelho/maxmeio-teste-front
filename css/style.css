@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.header__logo {
+  margin-left: 12px;
+}
+
 .header__dropdown-menu {
   margin-right: 18px;
 }
