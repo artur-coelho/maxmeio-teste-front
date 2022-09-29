@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro.woff2');
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: DINPro;
 }
 
 .header__logo {
@@ -14,9 +20,64 @@
   margin-right: 18px;
 }
 
+.stores-section {
+  background-color: #db812d;
+}
+
+.stores-section__title {
+  margin: 32px 0;
+
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+.stores-section__button-text {
+  padding: 12px 60px;
+  font-size: 20px;
+}
+
+.schedule-section {
+  background-color: #e5e5e5;
+}
+
+.schedule-section__title {
+  margin: 32px 0;
+
+  font-family: DINPro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #db812d;
+}
+
+.schedule-section__container {
+  margin-bottom: 10rem;
+}
+
+.schedule-section__carousel-indicators {
+  bottom: -92px !important;
+}
+
+.schedule-section__carousel-indicators [data-bs-target] {
+  bottom: -70px !important;
+  height: 12px !important;
+  background-color: #bdbdbd !important;
+  opacity: 1 !important;
+}
+
+.schedule-section__carousel-indicators .active {
+  background-color: #154c82 !important;
+}
+
 @media (max-width: 576px) {
   .header__logo {
     width: 137px;
     margin-top: 10px;
+  }
+
+  .stores-section__store-img {
+    height: 172px;
   }
 }

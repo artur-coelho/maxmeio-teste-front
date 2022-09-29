@@ -60,25 +60,33 @@
     </header>
 
     <section>
-      <div class="row">
+      <div class="row m-0">
         <div class="col-12 p-0">
           <div
-            id="carouselExampleControls"
+            id="carouselControls"
             class="carousel slide"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/banner-reabertura-2484x945 (1) 1.jpg" class="d-block w-100" alt="reopening banner" />
+                <img
+                  src="./img/banner-reabertura-2484x945 (1) 1.jpg"
+                  class="d-block w-100"
+                  alt="reopening banner"
+                />
               </div>
               <div class="carousel-item">
-                <img src="./img/banner-reabertura-2484x945 (1) 1.png" class="d-block w-100" alt="reopening banner" />
+                <img
+                  src="./img/banner-reabertura-2484x945 (1) 1.png"
+                  class="d-block w-100"
+                  alt="reopening banner"
+                />
               </div>
             </div>
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExampleControls"
+              data-bs-target="#carouselControls"
               data-bs-slide="prev"
             >
               <span
@@ -90,7 +98,108 @@
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#carouselExampleControls"
+              data-bs-target="#carouselControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ourstores" class="row text-center stores-section m-0 py-4">
+      <div class="col-12 text-center">
+        <h2 class="stores-section__title"><strong>NOSSAS</strong> LOJAS</h2>
+        <button type="button" class="btn btn-outline-light p-0">
+          <div class="stores-section__button-text">Ver todas as lojas</div>
+        </button>
+        <div
+          class="my-5 p-0 container tex-center d-flex justify-content-evenly"
+        >
+          <img
+            class="d-none d-xl-block"
+            src="./img/img-cacau-show.png"
+            alt="Cacau Show"
+          />
+          <img
+            class="stores-section__store-img"
+            src="./img/img-camarao&cia.png"
+            alt="Camarão&Cia"
+          />
+          <img
+            class="d-none d-lg-block"
+            src="./img/img-casas-bahia.png"
+            alt="Casas Bahia"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="row text-center schedule-section m-0 py-4">
+      <div class="col text-center">
+        <h2 class="schedule-section__title">
+          <strong>PROGRAMAÇÃO</strong> CINEMARK
+        </h2>
+        <div class="container schedule-section__container">
+          <div
+            id="carouselIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div
+              class="carousel-indicators schedule-section__carousel-indicators mb-0 mt-5"
+            >
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="0"
+                class="px-4 active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="1"
+                class="px-4"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex justify-content-evenly">
+                <img src="./img/cartaz1.png" alt="" />
+                <img src="./img/cartaz2.png" alt="" />
+                <img src="./img/cartaz3.png" alt="" />
+                <img src="./img/cartaz4.png" alt="" />
+              </div>
+              <div class="carousel-item d-flex justify-content-evenly">
+                <img src="./img/cartaz1.png" alt="" />
+                <img src="./img/cartaz2.png" alt="" />
+                <img src="./img/cartaz3.png" alt="" />
+                <img src="./img/cartaz4.png" alt="" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselIndicators"
               data-bs-slide="next"
             >
               <span
