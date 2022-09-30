@@ -78,6 +78,17 @@
   background-color: #154c82 !important;
 }
 
+.footer {
+  background-color: #333333;
+}
+
+.footer__page-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 32px;
+}
+
 @media (max-width: 1200px) {
   .schedule-section__carousel-indicators [data-bs-target] {
     width: 34px !important;
