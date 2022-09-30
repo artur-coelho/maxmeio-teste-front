@@ -20,6 +20,29 @@
   margin-right: 18px;
 }
 
+.carousel {
+  position: relative !important;
+}
+
+.carousel__button-previous,
+.carousel__button-next {
+  position: absolute !important;
+  top: 45% !important;
+  width: 60px !important;
+  height: 100px !important;
+  background-color: #db812d !important;
+}
+
+.carousel__button-previous {
+  left: 0 !important;
+  border-radius: 0 15px 15px 0 !important;
+}
+
+.carousel__button-next {
+  right: 0 !important;
+  border-radius: 15px 0 0 15px;
+}
+
 .stores-section {
   background-color: #db812d;
 }
@@ -113,6 +136,15 @@
 @media (max-width: 1200px) {
   .schedule-section__carousel-indicators [data-bs-target] {
     width: 34px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel__button-previous,
+  .carousel__button-next {
+    width: 34px !important;
+    height: 58px !important;
+    top: 35% !important;
   }
 }
 
