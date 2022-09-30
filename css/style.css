@@ -52,6 +52,11 @@
   color: #db812d;
 }
 
+.schedule-section__title-separator {
+  width: 21px;
+  border: 1px solid #db812d;
+}
+
 .schedule-section__container {
   margin-bottom: 10rem;
 }
@@ -63,12 +68,20 @@
 .schedule-section__carousel-indicators [data-bs-target] {
   bottom: -70px !important;
   height: 12px !important;
+  width: 72px !important;
+  margin: 0 !important;
   background-color: #bdbdbd !important;
   opacity: 1 !important;
 }
 
 .schedule-section__carousel-indicators .active {
   background-color: #154c82 !important;
+}
+
+@media (max-width: 1200px) {
+  .schedule-section__carousel-indicators [data-bs-target] {
+    width: 34px !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -79,5 +92,11 @@
 
   .stores-section__store-img {
     height: 172px;
+  }
+
+  .schedule-section__title {
+    max-width: 300px;
+    font-size: 25px;
+    line-height: 32px;
   }
 }
