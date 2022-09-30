@@ -101,6 +101,25 @@
   background-color: #154c82 !important;
 }
 
+.schedule-section__carousel-button-previous,
+.schedule-section__carousel-button-next {
+  position: absolute !important;
+  top: 45% !important;
+  width: 34px !important;
+  height: 58px !important;
+  background-color: #154c82 !important;
+}
+
+.schedule-section__carousel-button-previous {
+  left: 0 !important;
+  border-radius: 0 15px 15px 0 !important;
+}
+
+.schedule-section__carousel-button-next {
+  right: 0 !important;
+  border-radius: 15px 0 0 15px;
+}
+
 .footer {
   background-color: #333333;
 }
@@ -114,8 +133,6 @@
 
 .footer__page-link-container {
   position: relative;
-  padding-left: 3rem !important;
-  padding-right: 0 !important;
 }
 
 .footer__page-link-divider {
@@ -162,5 +179,14 @@
     max-width: 300px;
     font-size: 25px;
     line-height: 32px;
+  }
+
+  .schedule-section__baner-image {
+    height: 283px;
+  }
+
+  .footer__page-link-container {
+    padding-left: 3rem !important;
+    padding-right: 0 !important;
   }
 }
