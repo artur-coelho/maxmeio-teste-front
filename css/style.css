@@ -89,6 +89,27 @@
   line-height: 32px;
 }
 
+.footer__page-link-container {
+  position: relative;
+  padding-left: 3rem !important;
+  padding-right: 0 !important;
+}
+
+.footer__page-link-divider {
+  position: absolute;
+  left: -42px;
+  bottom: 0px;
+}
+
+.footer__page-link-divider hr {
+  width: 75px;
+  opacity: 1;
+  background-color: #db812d;
+  border: 2px solid #db812d;
+  border-radius: 5px;
+  transform: rotate(90deg);
+}
+
 @media (max-width: 1200px) {
   .schedule-section__carousel-indicators [data-bs-target] {
     width: 34px !important;
